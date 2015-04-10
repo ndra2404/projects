@@ -1,0 +1,234 @@
+
+/*$media (min-width: 992px) and (max-width: 1199px)*/
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+  .pav-verticalmenu .box-content{
+      min-height: 540px;
+  }
+  #cart h4{
+          display: none;
+  }
+}
+
+/*$media (min-width: 768px) and (max-width: 991px) {*/
+@media (min-width: $screen-sm) and (max-width: $screen-sm-max) {
+
+  //menu
+  .navbar-toggle{
+      display: block !important;
+  }
+  .navbar-collapse {
+      &.collapse {
+        display: none !important;
+      }
+  }
+
+  #menu-offcanvas{
+      .dropdown .dropdown-menu{
+          display: none ;
+      }
+      .dropdown.open .dropdown-menu{
+            display: block ;
+      }
+  }
+  #header-main{
+      background:$header-bg !important ;
+  }
+  /*config layout button toggle,logo,search*/
+  #header-main .inner{
+      text-align: center;
+      display: block;
+  }
+
+  .mainnav{
+      position: absolute;
+      @include rtl-left(0);
+      top:0;
+  }
+  #hidemenu{
+      display: none !important;
+  }
+  #cart h4{
+    display: none;
+  }
+  .pav-verticalmenu,.verticalmenu{
+      display: none;
+  }
+  .footer-top{
+      [class*="col-"]{
+          margin-bottom: 20px;
+      }
+  }
+
+
+  //newsletter
+  .pav-newsletter{
+      .email{
+          min-width: 250px !important;
+      }
+  }
+  .pav-colorbox{
+    display: none;
+  }
+  .product-zoom{
+    display: none;
+  }
+  .zoomContainer,.banner-wrapper{
+    display: none !important;
+  }
+
+  //product
+  .product-block {
+      .product-meta-inner{
+          opacity: 1;
+          top:-40px;
+      }
+      .right{
+          opacity: 1;
+      }
+  }
+
+}
+
+/*$media (max-width: 767px) {*/
+@media (max-width: $screen-xs-max) {
+  //menu
+    .navbar-toggle{
+      display: block !important;
+    }
+    .navbar-collapse {
+      &.collapse {
+        display: none !important;
+      }
+    }
+  #cart h4{
+    display: none;
+  }
+    #menu-offcanvas{
+      .dropdown .dropdown-menu{
+        display: none ;
+      }
+      .dropdown.open .dropdown-menu{
+        display: block ;
+      }
+    }
+    #header-main{
+      background:$header-bg !important ;
+    }
+    /*config layout button toggle,logo,search*/
+    #header-main .inner{
+      text-align: center;
+      display: block;
+    }
+
+    .mainnav{
+      position: absolute;
+      @include rtl-left(0);
+      top:0;
+    }
+
+    .pav-verticalmenu,.verticalmenu{
+      display: none;
+    }
+    .footer-top{
+      [class*="col-"]{
+        margin-bottom: 20px;
+      }
+    }
+    .effect{
+        display: none;
+    }
+
+
+    .sidebars-buttons{
+        margin: 9px;
+    }
+    .zoomContainer{
+      display: none !important;
+    }
+    .quickview,.pav-colorbox,.product-zoom,.scrollup,.image-additional,.banner-wrapper{
+        display: none !important;
+    }
+    .box-module-pavreassurances {
+        display: none;
+    }
+  //product
+  .product-block {
+    .product-meta-inner{
+      opacity: 1;
+      top:-40px;
+    }
+    .right{
+      opacity: 1;
+    }
+  }
+}
+
+/*$media (max-width: 480px) {*/
+@media (max-width: $screen-phone) {
+  #topbar{
+      .shopping-cart{
+          display: none;
+      }
+      .quick-top-link >*{
+          padding: 0 5px;
+      }
+      .dropdown-menu{
+          right :0 !important;
+          left: inherit ;
+      }
+
+  }
+  .rtl #topbar .quick-top-link{
+      float: left !important;
+  }
+  .rtl #topbar .dropdown-menu{
+      left :0 !important;
+      right: inherit !important;
+  }
+  .mainnav{
+      top:-70px;
+  }
+  .pavtestimonial{
+      display: none;
+  }
+  .product-list{
+      display: none;
+  }
+  .product-filter{
+      .display{
+          clear: both;
+          display: none;
+      }
+      .filter-right{
+          span{display: none;}
+          display: inline-block;
+      }
+      .product-compare{
+          line-height: 50px;
+      }
+  }
+  .cart-info{
+      .model,.price,.image{
+          display: none;
+      }
+  }
+  .tabs-left > ul{
+      float: none;
+  }
+  .tabs-right > ul{
+      float: none;
+  }
+  .quickview,.pav-colorbox,.product-zoom,.scrollup,.image-additional{
+     display: none !important;
+  }
+  //product
+  .product-block {
+    .product-meta-inner{
+      opacity: 1;
+      top:-40px;
+    }
+    .right{
+      opacity: 1;
+    }
+  }
+}

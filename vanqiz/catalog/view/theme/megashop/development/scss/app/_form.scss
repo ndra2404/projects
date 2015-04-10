@@ -1,0 +1,15 @@
+.btn-outline{
+	@include button-variant-outline($white, $theme-color,$theme-color, $white, $gray-dark , $gray-dark );
+}
+
+.btn-outline-inverse{
+	@include button-variant-outline($white, #dddddd , #dddddd , $white, $theme-color, $theme-color );
+}
+
+.btn-inverse{
+    @include button-variant-outline($white, $gray-dark , $gray-dark , $white, $theme-color, $theme-color );
+}
+
+.btn-variant{
+    @include button-size($padding-base-vertical + 2, $padding-base-horizontal + 3, $font-size-small, $line-height-base, $border-radius-base);
+}

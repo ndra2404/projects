@@ -1,0 +1,15 @@
+/*
+* CATEGORY-BANNER STYLE
+*
+*/
+@import "vars/opencart";
+@import "vars/bootstrap";
+@import "mixins/app";
+@import "mixins/bootstrap";
+@import "rtl/mixins";
+
+    .col-banner{
+        padding-top: $grid-gutter-width;
+    }
+
+

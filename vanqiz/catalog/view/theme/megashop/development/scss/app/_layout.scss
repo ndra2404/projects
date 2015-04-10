@@ -1,0 +1,226 @@
+/******************************************************
+ * $package Pav Opencart Theme Framework for Opencart 1.5.x
+ * $version 1.1
+ * $author http://www.ptsothemes.com
+ * $copyright   Copyright (C) Augus 2013 PavoThemes.com <$emai:ptsothemes$gmail.com>.All rights reserved.
+ * $license     GNU General Public License version 2
+ *******************************************************/
+body{
+    #page{
+        overflow: hidden;
+    }
+    &.layout-boxed-md{
+        background: url("#{$image-theme-path}pattern/pattern19.png");
+        #page{  
+            max-width: $container-desktop + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;    
+            background: $white;
+        }  
+        
+    }
+    &.layout-boxed-lg{
+        background: url("#{$image-theme-path}pattern/pattern18.png");
+        #page{  
+            max-width: $container-lg + 20px; 
+            @include box-shadow(0 0 5px lighten($gray, 50%));
+            margin: 0 auto;
+            background: $white;
+        }
+    }
+}
+
+/*
+* HEADER 
+*/
+
+/* Topbar */
+#topbar  {
+    padding: $topbar-padding;
+    min-height: $topbar-height;
+    font-size:$topbar-font-size;
+    border-bottom:$topbar-border ;
+    position: relative;
+    @include container-layout-variant( $topbar-color, $topbar-bg,$topbar-link-color, $topbar-link-hover-color );
+    ul  li{
+          font-size: $topbar-font-size;
+        }
+}
+
+/* Header-menu */
+.hasmenu-search{
+    padding:$header-padding ;
+}
+#header-main{
+    background-color: $header-bg;
+    color: $header-text-color;
+    >*{
+        position: relative;
+    }
+    .inner{
+        padding-top:$header-inner-padding;
+        padding-bottom:$header-inner-padding;
+        vertical-align: middle;
+        display: table-cell;
+        & > *{
+            vertical-align: middle;
+            margin: 0;
+        }
+    }
+    li >a{
+        color:$header-text-color;
+        font-size:$header-link-font-size ;
+
+        &:hover{
+            color: $link-hover-color;
+        }
+    }
+    .megamenu > li >a{
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+
+}
+.header-content{
+    display: table;
+    width: 100%;
+    position: relative;
+}
+.header-wrap{
+    min-height: $header-min-height;
+    margin: 0;
+}
+
+/*
+* MASSHEAD
+*/
+##{$app-brand-prefix}-masshead {
+    background-color: $masshead-bg;
+   .inner{
+        @include container-layout-variant($masshead-color, $masshead-bg, $masshead-color, $masshead-color-hover );
+   }
+}
+
+/*
+* NAVIGATION
+*/
+##{$app-brand-prefix}-mainnav {
+    
+}
+
+/*
+* SLIDESHOW 
+*/
+##{$app-brand-prefix}o-slideshow {
+}
+
+/*
+* SHOWCASE 
+*/
+##{$app-brand-prefix}o-showcase {
+
+}
+/*
+* PROMOTION
+*/
+##{$app-brand-prefix}o-promotion {
+    background: $promotion-bg;
+}
+
+/*
+* MAIN CONTENT
+*/
+#columns {
+    background:$main-bg;
+}
+#content{
+    padding-top: $main-wrapper-padding;
+    >h1{
+        margin-bottom:0 ;
+        background:$main-wrapper-bg;
+        padding: 0px 0px 20px;
+    }
+}
+.wrapper{
+    background: $main-wrapper-bg;
+    padding: $main-wrapper-padding;
+    margin: $main-wrapper-margin;
+
+}
+.wrapper-danger{
+}
+.wrap-outline{
+}
+/*
+/* MASS TOP 
+*/
+##{$app-brand-prefix}o-mass-top {    
+
+}
+/*
+/* MASS BOTTOM
+*/
+##{$app-brand-prefix}o-mass-bottom {
+  .inner{
+    padding:$mass-top-content-padding;
+    @include container-layout-variant($footer-top-color, $mass-top-bg, $footer-top-color, $footer-top-color-hover );
+  }
+}
+
+/* FOOTER */
+#footer{
+
+}
+
+.footer-top{
+    .inner{
+        padding:$footer-top-content-padding;
+        @include container-layout-variant($footer-top-color, $footer-top-bg, $footer-top-color, $footer-top-color-hover );
+        border-top:$footer-top-border ;
+        border-bottom:$footer-top-border ;
+    }
+    ul{
+        padding: 0;
+        margin: 0;
+        list-style: none;
+        > li{
+            text-transform: uppercase;
+            font-size: $footer-top-content-font-size;
+            line-height: $footer-top-content-line-height;
+            color: $footer-top-content-title-color;
+        }
+    }
+
+}
+.footer-center{
+    .inner{
+        @include container-layout-variant($footer-center-color, $footer-center-bg, $footer-center-color, $footer-center-color-hover );
+    }
+
+}   
+.footer-bottom{
+
+}      
+
+
+/* POWER BY */
+#powered {
+    .inner {
+        font-size:$power-font-size ;
+        padding:$power-inner-padding;
+        background: $power-bg;
+        overflow: hidden;
+    }
+    .copyright{
+        text-align: center;
+        line-height: 24px;
+        padding-bottom:$power-copyright-padding ;
+    }
+    .paypal{
+        text-align: center;
+    }
+    a{
+        color: $power-link-color;
+    }
+}
+

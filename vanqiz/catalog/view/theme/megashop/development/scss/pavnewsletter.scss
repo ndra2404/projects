@@ -1,0 +1,80 @@
+@import "vars/opencart";
+@import "vars/bootstrap";
+
+
+@import "mixins/app";
+@import "mixins/bootstrap";
+
+@import "rtl/mixins";
+
+.pav-newsletter{
+        text-align: center;
+        padding:30px 0 0;
+  .box-heading{
+      display: none;
+  }
+  .email{
+      min-width: 400px;
+      border-radius: 2px;
+      font-size: 14px;
+  }
+  .explain{
+      font-size:15px;
+      color:$white ;
+      font-weight: 300;
+      text-transform: uppercase;
+      line-height: 40px;
+      font-family: $font-family-secondary;
+      padding:0 30px ;
+      >*{
+          padding: 0;
+          margin: 0;
+      }
+  }
+  .input-group-addon{
+      padding: 0;
+  }
+  .btn-newsletter{
+      background: $theme-color;
+      color: $white;
+      z-index: 2;
+      padding: 10px 16px;
+  }
+}
+.formNewLestter{
+    display: inline-block;
+    >*{
+        @include rtl-float-left();
+    }
+}
+@media (max-width: $screen-xs-max) {
+    //newsletter
+    .pav-newsletter{
+        .explain{
+          display: none;
+        }
+        .input-newsletter{
+          @include rtl-padding-left(30px);
+        }
+        .email{
+          min-width: 250px ;
+        }
+    }
+}
+@media (max-width: $screen-phone) {
+    .pav-newsletter{
+        .input-newsletter{
+          @include rtl-padding-left(15px);
+        }
+        .input-newsletter >*{float: none}
+        .email{
+          min-width: 100px;
+        }
+    }
+    .social{
+        float: none;
+        border: none;
+        display: inline-block;
+    }
+}
+

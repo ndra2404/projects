@@ -1,0 +1,138 @@
+@import "vars/opencart";
+@import "vars/bootstrap";
+@import "mixins/app";
+@import "mixins/bootstrap";
+
+
+.pav-verticalcategorytabs{
+    background: $white;
+    .nav-tabs > li > a{
+        text-transform: capitalize;
+        font-size: 12px;
+        font-family: $font-family-base;
+    }
+    .tabs-left > *{
+        @include rtl-float-left;
+    }
+    .tabs-right > *{
+        @include rtl-float-right;
+    }
+    .tab-content{
+        overflow: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    .tabs-left > .nav-tabs{
+       position: relative;
+       &:after{
+         content: "";
+         height:500px;
+         width: 1px;
+         background: $border-color;
+         top:0;
+         @include rtl-right(0);
+         position: absolute;
+       }
+    }
+    .tabs-right > .nav-tabs{
+        position: relative;
+        &:after{
+          content: "";
+          height:500px;
+          width: 1px;
+          background: $border-color;
+          top:0;
+          @include rtl-left(0);
+          position: absolute;
+        }
+    }
+    .products-row{
+        border: none;
+    }
+}
+
+
+.pav-verticalcategorytabs {
+  .box-heading{
+        float: none;
+        width: 200px;
+        @include rtl-padding(20px,20px,20px,0px);
+        color: $white;
+        font-weight: bold;
+        margin-bottom: 20px;
+        font-family: $font-family-base;
+  }
+   li{
+      float: none;
+      border: 1px solid transparent;
+      &.active{
+          a{
+            background: none;
+            color: $theme-color;
+          }
+      }
+      a{
+          text-transform: capitalize;
+      }
+      &.active{
+          border-top:1px solid $border-color;
+          border-bottom:1px solid $border-color;
+          &:after {
+              border: 1px solid white;
+              content: "";
+              height: 100%;
+              position: absolute;
+              top: 0;
+              width: 0;
+              z-index: 9999;
+          }
+      }
+   }
+    .tabs-left li{
+        @include rtl-margin-left(10px);
+        a{
+            @include rtl-padding(8px,25px,8px,10px);
+        }
+        &.active{
+            @include rtl-border-left(1px solid $border-color);
+            &:after {
+              @include rtl-right(-1px);
+            }
+        }
+    }
+    .tabs-right li{
+       @include rtl-margin-right(10px);
+       a{
+         @include rtl-padding(8px,10px,8px,25px);
+       }
+       &.active{
+         @include rtl-border-right(1px solid $border-color);
+         &:after {
+           @include rtl-right(5px);
+         }
+       }
+     }
+}
+
+@media (max-width: $screen-xs-max) {
+  div.pav-verticalcategorytabs{
+    .tabs-left > *{
+        float: none;
+    }
+    .box-heading{
+        width: 100%;
+    }
+    .tabs-x li{
+        @include rtl-float-left;
+        display: inline-block;
+        border: none;
+        &.active{
+            border: none;
+        }
+    }
+    .tab-content{
+        overflow: visible;
+        clear: both;
+    }
+  }
+}

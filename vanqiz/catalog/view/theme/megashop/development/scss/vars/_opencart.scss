@@ -1,0 +1,34 @@
+// some basic colors
+@import "app.vars";
+@import "theme.vars";
+@import "layout.vars";
+@import "product.vars";
+@import "modules.vars";
+
+
+// product-tabs
+// ========================================================================
+$product-tabse-active :             #333333 !default;
+
+// Social
+// ========================================================================
+$socials-theme-color:              $black;
+$socials-theme-font-size: 		   10px;
+$socials-theme-font-weight:        300;
+$socials-theme-width:              114px;
+$socials-theme-height:             36px;
+$socials-theme-icon-color:         $white;
+$socials-theme-icon-border:        0;
+$socials-theme-icon-font-size:     $font-size-base + 7;
+$socials-theme-border:             1px solid darken($border-color, 5%);
+$socials-theme-padding:            11px 10px;
+$socials-theme-margin:             0;
+$socials-theme-outside:            -296px;
+//
+$highlighted-menu-hover:          $white !default;
+
+$highlighted-menu-border-top:         transparent !default;
+$highlighted-menu-border-bottom:      rgba(255, 255, 255, 0.2) !default;
+
+$heading-highlighted-color:       $theme-color !default;
+$heading-highlights-color:        $theme-color-tertiary !default;

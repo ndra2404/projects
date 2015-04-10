@@ -1,0 +1,106 @@
+
+#logo-theme{
+  a{
+    background: url('#{$image-theme-path-base}logo.png') no-repeat;
+  }
+}
+#columns{
+  background:$body-bg ;
+}
+.pav-masshead{
+  border: 1px solid $border-color;
+}
+
+.pav-megamenu {
+  > .navbar{
+    background-color: $white;
+  }
+  .megamenu >li{
+    > a{
+      text-transform: uppercase;
+      font-weight: bold;
+    }
+  }
+}
+
+.search-box{
+    .button-search{
+        display: none;
+    }
+    .input-group-search{
+        background: transparent;
+        border: 1px solid $border-color;
+        @include  rtl-border-left(none);
+        .fa{
+            display: block;
+        }
+    }
+}
+.rtl .search-box .input-group-search{
+    border-left: 1px solid $border-color;
+}
+#topbar:after {
+  content: "";
+  @include rtl-left(0px);
+  opacity: 0.05;
+  position: absolute;
+  top: 0;
+  pointer-events:none;
+  background: none repeat scroll 0 0 #fff;
+  transform: skew(-40deg, 0deg);
+  width: 31%;
+  height: 100%;
+}
+
+
+.box-module-pavreassurances {
+  .icon-name{
+    color: $theme-color !important;
+  }
+  .description h4{
+    color: $theme-color !important;
+  }
+}
+.title_detail{
+  h4,.description,.icon-name,p{color: $theme-color !important;}
+}
+.quick-top-link > .btn-group{
+  border: none;
+}
+.megamenu li > a{
+    font-size: 12px;
+}
+.box.box-center{
+  li{
+    &.active{
+      background: $theme-color;
+    }
+  }
+}
+.pav-newsletter .btn-newsletter{
+  background: $theme-color !important;
+}
+
+.producttabs{
+  .box-heading{
+      background:$theme-color-secondary !important;
+  }
+}
+.panel-default{
+    border-color: $theme-color;
+    > .panel-heading{
+        background: $theme-color;
+        border-color: $theme-color;
+      a:hover,a:focus{
+        color: $white;
+      }
+    }
+    .panel-body{
+      border-color: $theme-color;
+    }
+}
+.blog-meta{
+    .t-color{
+      color: $theme-color !important;
+    }
+}

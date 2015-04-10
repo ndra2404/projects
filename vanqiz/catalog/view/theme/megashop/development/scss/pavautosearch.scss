@@ -1,0 +1,88 @@
+@import "vars/opencart";
+@import "vars/bootstrap";
+@import "mixins/app";
+@import "mixins/bootstrap";
+@import "rtl/mixins";
+
+.dropdown-menu.autosearch{
+    width: 100%;
+    text-align: center;
+}
+.search-box{
+    .input-search{
+        @include  rtl-border-right(none);
+    }
+}
+//select
+.group-addon-select{
+    background: none;
+    font-size: $font-size-small;
+}
+//input search
+.input-group-search{
+    background: $theme-color;
+    border: none;
+    .fa{
+        display: none;
+    }
+}
+//button search
+.button-search{
+    font-size: $font-size-small;
+    font-family: $font-family-secondary;
+    font-weight: 700;
+    text-transform: uppercase;
+    color: $white;
+    padding: 10px;
+}
+// list product auto search
+ul.ui-autocomplete {
+    z-index: 9999!important;
+   .active{
+      border: solid 1px #CCCCCC;
+   } 
+   li {
+        display: block;
+        clear: both;
+        border-bottom: 1px solid #e9e9e9;
+        overflow: hidden;
+        background-color: #fff !important;
+        padding: 10px;
+        img {
+            cursor: pointer;
+            width:60px;
+            height: 60px;
+        }
+        .name {
+            cursor: pointer;
+            &:hover {
+              color: #7bbd42;
+            }
+            font-size: 12px;
+            font-weight:bold
+        }
+        a {
+            @include rtl-float-right();
+            margin: 5px !important;
+            border: 1px solid transparent;
+        }
+    }
+}
+.icon-select{
+    position: relative;
+    &:after{
+        content: "\f107";
+        color: $black;
+        background: $white;
+        font-family: "FontAwesome";
+        @include rtl-right(0px);
+        top:0px;
+        position:absolute;
+        pointer-events:none;
+        background: $white;
+        line-height: 36px;
+        width: 30px;
+        height: 100%;
+        text-align: center;
+    }
+}

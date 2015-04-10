@@ -1,0 +1,97 @@
+@import "vars/opencart";
+@import "vars/bootstrap";
+
+
+@import "mixins/app";
+@import "mixins/bootstrap";
+
+.module-desc{
+    display: none;
+}
+.nav.right{
+    @include rtl-float-right();
+}
+.pav-product-tab{
+    ul{
+        padding: 0;
+        li > a{
+            padding: 14px 15px 10px;
+        }
+    }
+    background: $white;
+    .nav-header{
+        font-size: 18px;
+        font-family: $font-family-base;
+    }
+
+    .tab-header{
+        display: block;
+    }
+    .tab-content{
+        padding: 0;
+        position: relative;
+    }
+    .products-row{
+        border:none;
+    }
+}
+
+.box-content:hover{
+    .carousel-control{
+        opacity: 1;
+    }
+}
+.out-variant{
+  display: none;
+}
+.tabs-left{
+  > .in-variant{
+      display: none;
+  }
+  > .out-variant{
+      display: block;
+  }
+
+  >.tab-heading,>ul{
+    display: table-cell;
+    &.nav-stacked  > li {
+      > a{
+        @include rtl-padding(10px,32px,10px,0px);
+      }
+      &.active:after{
+        @include rtl-right(0);
+      }
+    }
+  }
+  >.tab-content{
+    display: table-cell;
+    width: 100%;
+    @include rtl-padding-left($grid-gutter-width);
+    overflow: hidden;
+    min-height: 100px;
+    &:hover{
+      overflow: hidden;
+    }
+  }
+}
+.tabs-right{
+  > ul{
+    @include rtl-float-right();
+    &.nav-stacked  > li {
+      > a{
+        @include rtl-padding(10px,0px,10px,32px);
+      }
+      &.active:after{
+        @include rtl-left(0);
+      }
+    }
+  }
+  >.tab-content{
+    @include rtl-border-right(1px solid $border-color );
+    @include rtl-padding-right($grid-gutter-width);
+    overflow: hidden;
+    &:hover{
+      overflow: hidden;
+    }
+  }
+}

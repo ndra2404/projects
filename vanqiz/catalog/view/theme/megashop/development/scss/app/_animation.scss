@@ -1,0 +1,346 @@
+// Products
+// ========================================================================
+.product-block{
+    /* transition products-meta  */
+    .product-meta{
+        position: relative;
+    }
+    .product-meta-inner{
+        position: relative;
+        @include transition(all 0.4s ease 0s);
+        background: $product-meta-bg;
+        padding: $product-meta-padding;
+        width: 100%;
+        @include transition(all 0.4s ease 0s);
+        top:0;
+
+    }
+    .right{
+        position: absolute;
+        opacity: 0;
+        @include transition(all 0.6s ease 0s);
+    }
+    &:hover{
+        .product-meta-inner{
+            @include transition(all 0.4s ease 0s);
+            top: -40px;
+        }
+        .right{
+            opacity: 1;
+        }
+    }
+
+
+    /* zoom and quick-view */
+    .pav-colorbox, .product-zoom{
+        @include size(33px,33px);
+        @include transition(all 0.3s ease 0s);
+        position: absolute;
+        top: 50%;
+        margin: -18px 30px 0px;
+        @include opacity(0);
+        visibility: hidden;
+        @include transition(0.4s all);
+        .fa{
+            @include rtl-margin-left(-2px);
+        }
+    }
+    &:hover{
+        .pav-colorbox, .product-zoom{
+            margin: -18px 4px 0px;
+            @include opacity(1);
+            visibility: visible;
+        }
+    }
+
+    /*swap image*/
+    .image{
+        position: relative;
+        text-align: center;
+        &:hover {
+            .hover-image {
+              opacity: 1;
+              visibility: visible;
+            }
+        }
+        .hover-image {
+            position: absolute;
+            text-align: center;
+            top: 0;
+            width: 100%;
+            left: 0;
+            -webkit-transition: all 0.4s ease-in-out;
+            transition: all 0.4s ease-in-out;
+            visibility: hidden;
+            opacity: 0;
+        }
+    }
+
+}
+.product-zoom{
+    right: 50%;
+}
+.pav-colorbox{
+    left: 50%;
+}
+/*Button Cart,Wishlist&Compare*/
+.action{
+    line-height: 40px;
+    > *{
+        display: inline-block;
+    }
+}
+.product-block{
+  .cart,.wishlist,.compare{
+      span{
+        display: none;
+      }
+  }
+}
+
+//BANNER
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: 10;
+}
+.banner-wrapper{
+  cursor: pointer;
+  position:relative;
+}
+.banner-meta {
+  position:absolute;
+  text-align:center;
+  height:100%;
+  width:100%;
+  z-index: 10;
+}
+.banner-meta:before {
+  content: '';
+  display: inline-block;
+  height: 100%;
+  vertical-align: middle;
+  margin-right: -0.25em; /* Adjusts for spacing */
+}
+
+.banner-inner {
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  color: $white;
+  max-width: 80%;
+  >span,.title{
+      font-size: 30px;
+      text-transform: uppercase;
+      line-height: 48px;
+      position: relative;
+      font-weight: 300;
+      display:block;
+      color: $white;
+    &:before{
+        position: absolute;
+        content: "";
+        height: 1px;
+        width: 50px;
+        left:50%;
+        bottom: -5px;
+        margin-left: -25px;
+        background: $white;
+    }
+  }
+  >p{
+      line-height: 48px;
+      font-style: italic;
+  }
+}
+.pav-custom{
+    .image-banner{
+        padding: 0;
+        margin: 0;
+        > li{
+            float: left;
+        }
+    }
+}
+
+/*effect img*/
+.effect2{
+    overflow: hidden;
+    position: relative;
+    img{
+        @include scale(1);
+        @include transition(0.6s all);
+        width: 100%;
+    }
+    &:hover img{
+        @include scale(1.05);
+        @include transition(0.6s all);
+    }
+}
+
+.effect{
+    overflow: hidden;
+    position: relative;
+    cursor:pointer;
+    display: block;
+}
+.effect:before {
+    background-color:rgba(227, 242, 253, 0.2);
+    content: "";
+    height: 100%;
+    @include rtl-left(50%);
+    margin: auto;
+    position: absolute;
+    top: 0;
+    transition: all 0.3s ease-out 0s;
+    width: 0px;
+}
+.effect:hover{
+    &:before{
+        @include rtl-left(0%);
+        width: 100%;
+        pointer-events:none;
+
+    }
+}
+
+//variant product-button
+.product-variant{
+  padding: 15px 10px;
+  .right{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    z-index: 5;
+    background: rgba(255, 255, 255, 0);
+  }
+  .action{
+    top:50%;
+    margin-top: -40px;
+  }
+
+  .action-button{
+    display:block;
+    text-align: center;
+    margin-bottom: 5px;
+    >*{
+      @include scale(0);
+      @include transition(0.4s);
+      display: inline-block;
+    }
+    a{
+      @include size(30px,30px);
+      border-radius: 100%;
+      padding: 0;
+      line-height: 30px;
+    }
+    .fa{
+      color: $theme-color;
+    }
+  }
+  .btn{
+      background: transparent;
+      border:2px solid $theme-color;
+      &:hover{
+          background: $theme-color;
+          >*{
+              color: $white;
+          }
+      }
+  }
+  .cart{
+    text-align: center;
+    display: block;
+    @include scale(0);
+    @include transition(0.4s);
+    .btn{
+      border-radius: 30px;
+      padding: 5px 20px 3px;
+      font-size: 11px;
+    }
+    span{
+      display: block !important;
+      font-weight: bold;
+      color: $theme-color;
+    }
+    .fa{
+      display: none;
+    }
+  }
+
+
+  .pav-colorbox, .product-zoom{
+    @include transition(all 0.3s ease 0s);
+    position: relative;
+    margin: 0px;
+    left:0;
+    @include opacity(1);
+    visibility: visible;
+    @include transition(0.4s all);
+  }
+  &:hover{
+    .right{
+      background: rgba(255, 255, 255, 0.9);
+      opacity: 1;
+    }
+
+    .cart{
+      @include scale(1);
+    }
+    .action-button{
+      >*{
+        @include scale(1);
+
+      }
+    }
+    .pav-colorbox, .product-zoom{
+      margin: 0;
+    }
+  }
+
+  .product-img{
+    position: relative;
+  }
+
+
+  .product-label{
+    @include rtl-right(0);
+    @include rtl-left(inherit);
+    z-index: 10;
+    > span{
+      background: url("#{$image-theme-path}bg_productlabel.png") no-repeat scroll left center transparent;
+      @include size(43px,43px);
+      padding: 15px 5px;
+      &:before{
+        content: none;
+      }
+    }
+  }
+}
+//fix affect style product-button on sidebar
+.sidebar{
+  .product-variant{
+    .product-meta{
+      @include rtl-float-right;
+    }
+  }
+}
+
+.product-list .product-variant{
+    .product-meta{
+        @include rtl-float-right;
+    }
+    .product-img{
+        @include rtl-float-left;
+        width: 22%;
+        .image{
+            width: 100%;
+        }
+        .right{
+            position: absolute;
+        }
+    }
+
+}

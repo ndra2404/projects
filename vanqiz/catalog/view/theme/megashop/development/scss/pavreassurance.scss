@@ -1,0 +1,94 @@
+@import "vars/opencart";
+@import "vars/bootstrap";
+
+
+@import "mixins/app";
+@import "mixins/bootstrap";
+
+.box-module-pavreassurances {
+    .box-content{
+    }
+    .icon-name{
+        font-size: 35px;
+        color: $theme-color;
+        vertical-align: top;
+        @include rtl-margin-right(10px);
+    }
+    .description {
+        vertical-align: top;
+        @include rtl-text-align-left();
+        p {
+            color: #9c9c9c;
+            font-weight: 300;
+            line-height: 20px;
+        }
+        h4 {
+            text-transform: capitalize;
+            color: $theme-color;
+            font-size: $font-size-base;
+            line-height: $line-height-base;
+            font-family: $font-family-secondary;
+        }
+    }
+    h4, p {
+        margin: 0;
+    }
+    p{
+        font-size: 13px;
+    }
+    .reassurances-left {
+        position: relative;
+        padding: 30px 0;
+        text-align: center;
+        &:hover {
+            .icon-name{
+                color:$red;
+                @include transition(0.4s);
+            }
+            h4 {
+                color: $red;
+            }
+        }
+    }
+    .arrow {
+        cursor: pointer;
+        height: 100%;
+        width: 100%;
+        position: absolute;
+        top:0;
+        @include rtl-left(0);
+    }
+}
+.title_detail h4 {
+    font-size: 30px;
+    font-weight: 900;
+    line-height: 50px;
+    color:$theme-color;
+}
+.title_detail .icon-name {
+    color: $theme-color;
+    font-size: 170px;
+    margin: 0 20px;
+}
+.title_detail p {
+    color: $theme-color;
+    font-size: 15px;
+    margin: 25px 0 0;
+}
+.info{
+    overflow: hidden;
+}
+
+@media (min-width: $screen-md) and (max-width: $screen-md-max){
+  #colorbox .title_detail{
+      .description{
+          display: block;
+          clear:both;
+          padding-top: 15px;
+        >p{
+            margin: 0;
+        }
+      }
+
+  }
+}

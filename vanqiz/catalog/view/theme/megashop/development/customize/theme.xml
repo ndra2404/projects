@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<theme>
+	<header>
+		 <title>Header Block</title>
+		 <description></description>
+	 	 <module>
+	 	 	<title>Banner</title>
+	 	 	<field>
+	 	 		<name>widget_footbanner</name>
+	 	 		<label>Content</label>
+	 	 		<type>image</type>
+	 	 		<lang>0</lang>
+	 	 		<default>image/data/banner/banner1.png</default>
+	 		</field>
+	 	 </module>	
+	</header>
+
+	<footer>
+		 <title>Footer Block</title>
+		   <description></description>
+			<module>
+				 <title>About</title>
+				 <field>
+				  <name>widget_about</name>
+				  <label>Content</label>
+				  <type>textarea</type>
+				  <lang>1</lang>
+				  <default><![CDATA[<p><img src="image/catalog/logo.png"></p>
+                                    <p><span>Praesent quis ante dapibus tellus mollis dapibus ullamcorper sit amet erat,</span><span>Praesent quis ante dapibus tellus mollis dapibus ullamcorper sit amet erat</span></p>
+                                    ]]>
+                  </default>
+				</field>
+			</module> 
+			<module>
+				 <title>Address Link</title>
+				 <field>
+				  <name>widget_address</name>
+				  <label>Content</label>
+				  <type>textarea</type>
+				  <lang>1</lang>
+				  <default><![CDATA[<div class="box pav-custom  ">
+                                        <div class="box-heading">
+                                            <span>About Us</span>
+                                        </div>
+                                        <div class="box-content">
+                                            <div class="address">
+                                                <p><span>Praesent quis ante dapibus tellus mollis dapibus ullamcorper sit amet erat. </span></p>
+                                                <div class="box-addres">
+                                                    <div class="link-address icon">
+                                                        <span class="fa fa-map-marker">&nbsp;</span><span>No 1104 Sky Tower, Newyork, USA</span>
+                                                    </div>
+                                                    <div class="link-mobile icon">
+                                                        <span class="fa fa-phone">&nbsp;</span><span>Phone: +01 888 (000) 1234</span>
+                                                    </div>
+                                                    <div class="link-mail icon">
+                                                        <span class="fa fa-envelope">&nbsp;</span>
+                                                        <span>Email: support@gmail.com</span>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    ]]>
+                  </default>
+				</field>
+			</module> 
+			<module>
+				 <title>Paypal</title>
+				 <field>
+				  <name>widget_paypal</name>
+				  <label>Paypal</label>
+				  <type>textarea</type>
+				  <lang>1</lang>
+				  <default><![CDATA[<img src="image/data/paypal.png"/>]]></default>
+				</field>
+			</module>
+		 
+	</footer>
+
+</theme>

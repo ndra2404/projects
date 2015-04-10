@@ -1,0 +1,125 @@
+// Product Style
+// ========================================================================
+.#{$products-container-selector}{
+    position:relative;
+    background-color: $product-content-bg;
+
+}
+.#{$products-col-selector}{
+     @include rtl-border-right($product-border-color);
+     overflow: hidden;
+     &:last-child{
+        @include rtl-border-right(none);
+     }
+}
+.#{$products-row-selector}{
+    padding: 0;
+    margin: 0;
+    position:relative;
+    border-bottom: $product-border-color;
+    overflow: hidden;
+}
+.#{$product-block-selector}{
+    padding:$product-padding;
+    /*name product*/
+    .name{
+        display: block;
+        line-height:$product-name-line-height ;
+        font-size: $product-name-font-size;
+        margin: 0;
+        text-transform: none;
+        font-weight: 700;
+        padding: $product-name-padding;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        a{
+            color: $product-name-color;
+            &:hover{
+                color: $product-name-hover-color;
+            }
+        }
+    }
+    //rating
+    .rating, .norating {
+        display: block;
+    }
+
+    .description{
+      display: none;
+      font-weight:$product-description-font-weight ;
+      padding: $product-description-padding 0 0;
+    }
+}
+
+.product-meta{
+    @include rtl-text-align-left();
+}
+
+.action{
+    position: relative;
+}
+//label sale
+.product-label {
+    color: $product-label-color;
+    font-weight: $product-label-font-weight;
+    text-align: center;
+    z-index: 3;
+    font-size: $product-label-font-size;
+    text-transform: uppercase;
+    position: absolute;
+    @include rtl-left($product-label-padding);
+    top:$product-label-padding;
+    span{
+        padding:$product-label-special-padding;
+        border-radius:$product-label-special-border-radius;
+        display: inline-block;
+        @include label-variant($product-label-special-bg);
+        position: relative;
+        &:before{
+            border-left: 4px solid rgba(0, 0, 0, 0);
+            border-right: 4px solid rgba(0, 0, 0, 0);
+            border-top: 4px solid $product-label-special-bg;
+            content: "";
+            height: 0;
+            left: 50%;
+            margin-left: -2px;
+            position: absolute;
+            top: 100%;
+            transition: all 300ms linear 0s;
+            width: 0;
+            z-index: 10;
+        }
+    }
+    &.product-label-new, &.new-box{
+      @include label-variant($product-label-new-bg);
+      top:2px;
+    }
+    &.sale-percent-box{
+      @include label-variant($product-label-special-bg);
+      @include rtl-right(0);
+      @include rtl-left(inherit);
+      bottom:0;
+    }
+}
+
+//Price
+.price{
+    line-height:$product-price-line-height ;
+    padding:$product-price-padding;
+    color: $product-price-new-color;
+    font-weight: 700;
+}
+.price-new,.special-price,.price-tax{
+    font-size: $product-price-new-font-size ;
+    color:$product-price-new-color ;
+
+}
+.price-old{
+    text-decoration: line-through;
+    padding:$product-price-old-padding ;
+    color:$product-price-ole-color ;
+}
+.price-gruop{
+    color:$product-price-ole-color ;
+}

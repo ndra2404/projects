@@ -1,0 +1,177 @@
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '873' WHERE `group` = 'config' AND `key` = 'config_image_category_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '270' WHERE `group` = 'config' AND `key` = 'config_image_category_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '500' WHERE `group` = 'config' AND `key` = 'config_image_thumb_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '717' WHERE `group` = 'config' AND `key` = 'config_image_thumb_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '600' WHERE `group` = 'config' AND `key` = 'config_image_popup_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '860' WHERE `group` = 'config' AND `key` = 'config_image_popup_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '500' WHERE `group` = 'config' AND `key` = 'config_image_product_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '717' WHERE `group` = 'config' AND `key` = 'config_image_product_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '81' WHERE `group` = 'config' AND `key` = 'config_image_additional_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '117' WHERE `group` = 'config' AND `key` = 'config_image_additional_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '500' WHERE `group` = 'config' AND `key` = 'config_image_related_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '717' WHERE `group` = 'config' AND `key` = 'config_image_related_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '65' WHERE `group` = 'config' AND `key` = 'config_image_compare_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '77' WHERE `group` = 'config' AND `key` = 'config_image_compare_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '65' WHERE `group` = 'config' AND `key` = 'config_image_wishlist_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '77' WHERE `group` = 'config' AND `key` = 'config_image_wishlist_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '65' WHERE `group` = 'config' AND `key` = 'config_image_cart_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '77' WHERE `group` = 'config' AND `key` = 'config_image_cart_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '268' WHERE `group` = 'config' AND `key` = 'config_image_location_width' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:25 - PHP Notice:  Error: Unknown column 'group' in 'where clause'<br />Error No: 1054<br />UPDATE vz_setting SET `value` = '50' WHERE `group` = 'config' AND `key` = 'config_image_location_height' AND store_id = '0' in /var/www/html/vanqiz/system/library/db/mysqli.php on line 40
+2015-04-01 3:20:46 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 3:20:46 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 3:20:46 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 3:20:46 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 4:26:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 4:26:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 4:31:34 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 4:31:34 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 4:31:34 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 4:31:34 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 4:34:28 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 4:34:28 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 4:34:28 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 4:34:28 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 9:04:24 - PHP Notice:  Use of undefined constant DIR_TEMPLATE - assumed 'DIR_TEMPLATE' in /var/www/html/vanqiz/catalog/controller/common/column_left.php on line 64
+2015-04-01 9:04:24 - PHP Notice:  Use of undefined constant DIR_TEMPLATE - assumed 'DIR_TEMPLATE' in /var/www/html/vanqiz/system/engine/loader.php on line 30
+2015-04-01 9:04:24 - PHP Notice:  Error: Could not load template DIR_TEMPLATEdefault/template/common/column_left.tpl! in /var/www/html/vanqiz/system/engine/loader.php on line 45
+2015-04-01 9:04:31 - PHP Notice:  Error: Could not load template /var/www/html/vanqiz/catalog/views/theme/default/template/common/column_left.tpl! in /var/www/html/vanqiz/system/engine/loader.php on line 45
+2015-04-01 9:49:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:30 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:30 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:38 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:38 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:43 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:49:43 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:50:29 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:50:29 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:51:11 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:51:11 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:51:40 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:51:40 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:52:33 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:52:33 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:53:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:53:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:18 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:18 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:33 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:33 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:45 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:54:45 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:14 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:14 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:42 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:42 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:58 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:55:58 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:56:15 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:56:15 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:56:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:56:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:57:14 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:57:14 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:58:15 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:58:15 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:58:28 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:58:28 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:59:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 9:59:21 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-01 10:54:26 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:54:26 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:54:26 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 10:54:26 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 10:55:49 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 308 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:55:49 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 308 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:55:49 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 10:55:49 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 10:57:25 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:57:25 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 10:57:25 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 10:57:25 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:02:48 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 722 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:02:48 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 722 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:02:48 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:02:48 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:05:46 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:05:46 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:05:46 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:05:46 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:13:25 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:13:25 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-01 11:13:25 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:13:25 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-01 11:16:16 - PHP Notice:  Undefined index: status in /var/www/html/vanqiz/admin/view/template/module/pavmap/module.tpl on line 99
+2015-04-01 11:17:12 - PHP Notice:  Undefined offset: 0 in /var/www/html/vanqiz/catalog/view/theme/megashop/template/module/pavmap.tpl on line 40
+2015-04-01 11:17:12 - PHP Notice:  Undefined offset: 0 in /var/www/html/vanqiz/catalog/view/theme/megashop/template/module/pavmap.tpl on line 40
+2015-04-01 11:17:12 - PHP Notice:  Undefined offset: 0 in /var/www/html/vanqiz/catalog/view/theme/megashop/template/module/pavmap.tpl on line 40
+2015-04-01 11:17:12 - PHP Notice:  Undefined offset: 0 in /var/www/html/vanqiz/catalog/view/theme/megashop/template/module/pavmap.tpl on line 40
+2015-04-02 3:45:38 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:45:38 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:45:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:45:57 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:04 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:04 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:10 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:10 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:22 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:22 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:54 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:46:54 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:32 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:32 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:41 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:41 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:51 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:47:51 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:48:50 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:48:50 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:00 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:00 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:16 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:16 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:32 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 3:49:32 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:40:51 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:40:51 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:42:24 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:42:24 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:42:24 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:42:24 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:43:20 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:43:20 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:43:20 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:43:20 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:44:24 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:44:24 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 5:44:24 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:44:24 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 5:47:23 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:47:23 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:48:17 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:48:17 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:48:42 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:48:42 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:02 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:02 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:09 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:09 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:35 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:35 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:44 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:44 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:55 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 5:49:55 - PHP Notice:  Undefined variable: placeholder in /var/www/html/vanqiz/admin/view/template/module/pavmegamenu/pavmegamenu_form.tpl on line 139
+2015-04-02 6:13:56 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 6:13:56 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 6:13:56 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 6:13:56 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 6:16:12 - PHP Warning:  Missing argument 2 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 6:16:12 - PHP Warning:  Missing argument 3 for ControllerModuleThemeControl::redirect(), called in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 310 and defined in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 596
+2015-04-02 6:16:12 - PHP Notice:  Undefined variable: param in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 6:16:12 - PHP Notice:  Undefined variable: ssl in /var/www/html/vanqiz/admin/controller/module/themecontrol.php on line 597
+2015-04-02 10:23:44 - PHP Notice:  Undefined variable: direction in /var/www/html/vanqiz/catalog/view/theme/megashop/template/themecontrol/product.tpl on line 35
+2015-04-02 10:23:44 - PHP Notice:  Undefined variable: lang in /var/www/html/vanqiz/catalog/view/theme/megashop/template/themecontrol/product.tpl on line 35
+2015-04-02 10:23:44 - PHP Notice:  Undefined variable: direction in /var/www/html/vanqiz/catalog/view/theme/megashop/template/themecontrol/product.tpl on line 36
+2015-04-02 10:23:44 - PHP Notice:  Undefined variable: lang in /var/www/html/vanqiz/catalog/view/theme/megashop/template/themecontrol/product.tpl on line 36

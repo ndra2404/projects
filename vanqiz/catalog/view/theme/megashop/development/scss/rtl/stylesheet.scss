@@ -1,0 +1,68 @@
+@import "../vars/bootstrap";
+@import "../vars/opencart";
+
+.rtl{
+/*
+* Bootstrap
+*/
+
+  .pav-verticalmenu .verticalmenu li.dropdown > a:before{
+    content: "\f104";
+  }
+  // Reset rounded corners
+  .input-group .form-control:first-child,
+  .input-group-addon:first-child,
+  .input-group-btn:first-child > .btn,
+  .input-group-btn:first-child > .btn-group > .btn,
+  .input-group-btn:first-child > .dropdown-toggle,
+  .input-group-btn:last-child > .btn:not(:last-child):not(.dropdown-toggle),
+  .input-group-btn:last-child > .btn-group:not(:last-child) > .btn {
+    @include border-left-radius(0);
+  }
+  .input-group-addon:first-child {
+    border-left: 1px solid $border-color;
+    border-right:1px solid $border-color;
+  }
+  .input-group .form-control:last-child,
+  .input-group-addon:last-child,
+  .input-group-btn:last-child > .btn,
+  .input-group-btn:last-child > .btn-group > .btn,
+  .input-group-btn:last-child > .dropdown-toggle,
+  .input-group-btn:first-child > .btn:not(:first-child),
+  .input-group-btn:first-child > .btn-group:not(:first-child) > .btn {
+    @include border-right-radius(0);
+  }
+  .input-group-addon:last-child {
+    border-right: 0;
+    border-left: 1px solid $border-color;
+  }
+  /*
+  * Open cart
+  */
+  //style font rtl
+  .pav-megamenu .megamenu{
+      font-family: $font-family ;
+  }
+  .pav-verticalmenu .menu-title{
+      font-family: $font-family ;
+  }
+  .pavo-widget .widget-title, .pavo-widget .title{
+      font-family: $font-family ;
+  }
+  .box-heading{
+      font-family: $font-family ;
+  }
+  .box-module-pavreassurances .description h4{
+      font-family: $font-family ;
+  }
+  .nav.nav-pills > li > a{
+      font-family: $font-family ;
+  }
+  .pav-product-tab .nav-header{
+      font-family: $font-family ;
+      font-size: 16px;
+  }
+  .pav-newsletter .explain{
+      font-family: $font-family ;
+  }
+}
